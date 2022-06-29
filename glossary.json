@@ -1,6 +1,9 @@
 {
   "frame": "https://raw.githubusercontent.com/trustoverip/tswg/main/.glossary-template.html",
   "sources": [
-    { "wiki": "git@github.com:trustoverip/tswg.git" }
+    {
+      "wiki": "git@github.com:trustoverip/tswg.git",
+      "subset": "not #hide"
+    }
   ]
 }
