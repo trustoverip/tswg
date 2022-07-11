@@ -182,6 +182,30 @@ function goto(url) {
 <p class="meta">version 8, commit 1b17d88, created 2022-06-22, last modified 2022-07-11, contributors Neil Thomson - Daniel Hardman</p>
 </dd>
 
+<dt id="autonomous"><svg class="_slf" onclick="copyUrl('#autonomous')"><use href="#_slf"/></svg>autonomous <svg class="_xl" onclick="goto('https://github.com/trustoverip/tswg/wiki//autonomous')"><use href="#_xl"/></svg><span class="tag">#tswg</span><span class="tag">#tswg</span></dt>
+<dd><p>Enter the distinction between autonomic and autonomous computing, which is critical to understanding why SSI using <em><strong>autonomic</strong></em> self-certifying identifiers can provide end-to-end verifiability required for distributed systems vs. ODIC <em><strong>autonomous</strong></em> identifiers, which are centralized (with identity providers).</p>
+<p>An autonomic system is like he breathing which takes place whether you consciously choose to breathe or not. Breathing continues whether you are asleep or unconscious. So you can override the &quot;hardwired/default&quot; behaviour, but the default behaviour will resume once you stop directly thinking about it.</p>
+<p>An Autonomous system that is not autonomic requires constant attention (such as OIDC AuthN/Z) and does not have a default behaviour that will verify identity without (identity) controller input.</p>
+<p>So autonomic and autonomous are both self-governing, but the difference is guaranteed default behaviour for trust level actions (such as validation/verification) for autonomic systems, but always subject to controller direction for non-autonomic autonomous systems.</p>
+<p>Autonomic means a self-governing system (without requiring outside control to operate, including (key, scoped) behaviour guaranteed to not allow outside control, including verification and possibly others), where autonomous merely means independent (which allows outside control/overrides and does not necessarily have default (guaranteed) default behaviour for verifiability, etc.).</p>
+<p><em><strong>Autonomic</strong> identifier management (verifiability in particular) is required for distributed identity management.</em></p>
+<p>The bottom line is trust:</p>
+<ul>
+<li>An autonomic identifier control can be relied on for consistent behaviour for key behaviours. For use in SSI in a decentralized system, autonomic behaviour must be &quot;observable&quot; (verifiable) to be trusted.</li>
+<li>An independent/autonomous control, with no guaranteed non-overridable/autonomic behaviour for vital functions does not provide the same level of trust. Observability is not guaranteed.</li>
+</ul>
+<p>An essential point here is that how an identifier is controlled is not a requirement for interoperability (e.g. SSI/OIDC), but interoperability does NOT mean that the same level of trust exists for identities from SSI vs. OIDC.</p>
+<p>OIDC can create its own identifiers and interoperate on exchanging Verifiable Credentials, including with SSI systems. However, that does not mean that OAuth/OIDC, which does not use autonomic components like identifiers, issuers/holders/verifiers checks and balances using autonomic identifiers and related aspects, deserves the same level of trust as SSI and the ToIP stack.</p>
+<p>Side note: OIDC has become the de-facto Federated Identity mechanism, but it is primarily a centralized vs. decentralized identifier approach. <ins>OIDC SIOP and the adoption of VCs provide organizations with a graceful migration path to decentralization via SSI.</ins></p>
+<p>A gating factor for SSI (that has been realized in multi-blockchain trust domains) is that it is very difficult to move between (effectively centralized) trust domains unless identifiers have a high degree of (autonomic) autonomy.</p>
+<p>To achieve decentralization, the properties of a decentralized identifier are that they have the properties and verifiability (and autonomic behaviour) to cross trust domains.</p>
+<p>Key finding: <em>the Tech Arch Spec needs to define a glossary/terms that define the key aspects of SSI identity, including required autonomic behaviour.</em></p>
+<p>Key observation: <em>not all DID methods (API sets) support autonomic identifiers</em>.</p>
+<p>What distinguishes SSI/Decentralized Identity is defining autonomy at the (holder as controller) level. That the implementation of the identifier internals supports the autonomy of the controller (holder) of the identifier.</p>
+<p>The issue here is &quot;loci/locus of control&quot;.</p>
+<p class="meta">version 2, commit 1f95471, created 2022-07-11, last modified 2022-07-11, contributors Neil Thomson</p>
+</dd>
+
 <dt id="autonomy"><svg class="_slf" onclick="copyUrl('#autonomy')"><use href="#_slf"/></svg>autonomy <svg class="_xl" onclick="goto('https://github.com/trustoverip/tswg/wiki//autonomy')"><use href="#_xl"/></svg><span class="tag">#tswg</span><span class="tag">#tswg</span></dt>
 <dd><p>the quality or state of being self-governing. Variations for the ToIP Technical Architecture</p>
 <ul>
